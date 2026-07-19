@@ -1,0 +1,134 @@
+<!doctype html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Thông tin cá nhân</title>
+    <link rel="icon" type="image/png" href="favicon-32x32.png">
+  </head>
+  <body>
+    <h1>THÔNG TIN CÁ NHÂN</h1>
+    <!-- Thanh điều hướng (Menu)-->
+    <a href="#">Giới thiệu</a> | <a href="#">Sở thích</a> |
+    <a href="#">Kỹ năng</a> | <a href="#">Thời khóa biểu</a> |
+    <a href="#">Liên hệ</a>
+    <p>
+        <!--Đường kẻ ngang-->
+        <hr>
+        <img src="https://instandeebinhthanh.com/wp-content/uploads/2024/11/anh-thien-nhien-dep-1024x640.jpg" alt="Ảnh online" width="300">
+        <img src="ảnh cá nhân.png" alt="Ảnh trong máy" width="300">
+        <h2>Thông tin cá nhân</h2>
+
+    </p>
+    <p> <b>Họ Tên:</b> Hoàng Như Đạt</p>
+    <p><b>Tuổi: </b>24</p>
+    <p><b>Trường: </b>Đại học công nghiệp Hà Nội</p>
+    <p><b>Ngành: </b>Công nghệ thông tin</p>
+    <p><b>Lớp: </b>CNTT02</p>
+    <p><b>Email: </b>dathoang09112k4@gmail.com</p>
+    <p><b>Số điện thoại: </b>0856724586</p>
+    <hr>
+    <h2>Giới thiệu bản thân</h2>
+    <p>Xin chào mọi người! Mình là Hoàng Như Đạt, hiện đang là sinh viên năm 2 ngành CNTT</p>
+    <p>Mình yêu thích ngành lập trình web và mong muốn trở thành Back-end Developer trong tương lai</p>
+    <hr>
+    <h2>Sở thích</h2>
+    <ul>
+      <li>Nghe Nhạc</li>
+      <li>Đọc sách</li>
+      <li>Chơi thể thao</li>
+      <li>Du lịch</li>
+      <li>Lập trình</li>
+    </ul>
+    <hr>
+    <h2>Kỹ năng</h2>
+    <ol>
+      <li>HTML</li>
+      <li>CSS</li>
+      <li>JavaScript</li>
+      <li>Git & GitHub</li>
+      <li>C++</li>
+    </ol>
+    <hr>
+    <h2>Thời khóa biểu</h2>
+    <table border="1">
+      <tr>
+        <th>Thứ</th>
+        <th>Môn học</th>
+        <th>Phòng học</th>
+      </tr>
+      <tr>
+        <td rowspan="2">Thứ 2</td>
+        <td >HTML</td>
+        <td>A1-101</td>
+      </tr>
+      <tr>
+        <td>CSS</td>
+        <td>A1-102</td>
+      </tr>
+      <tr>
+        <td>Thứ 3</td>
+        <td>JavaScipt</td>
+        <td>A1-103</td>
+      </tr>
+      <tr>
+        <td>Thứ 4</td>
+        <td>CSDL</td>
+        <td>A1-104</td>
+      </tr>
+      <tr>
+        <td>Thứ 5</td>
+        <td>ReactJS</td>
+        <td>A1-105</td>
+      </tr>
+      <tr>
+        <td colspan="3"><b>Tổng cộng 5 buổi học</b></td>
+      </tr>
+    </table>
+    <hr>
+    <h2>Form liên hệ</h2>
+    <form >
+      <label for="ht">Họ Tên</label><br/>
+      <input type="text" id="ht" name="ht"><br/>
+      <label for="em">Email</label><br/>
+      <input type="text" id="em" name="em"><br/>
+      <label for="pw">Mật khẩu</label><br/>
+      <input type="password" id="pw" name="pw">
+    </form>
+    <p>Giới tính</p>
+    <form>
+      <input type="radio" id="gtnam" name="gioitinh" value="Nam">
+      <label for="gtnam">Nam</label>
+      <input type="radio" id="gtnu" name="gioitinh" value="Nữ">
+      <label for="gtnu">Nữ</label>
+    </form>
+    <p>Sở thích</p>
+    <form >
+      <input type="checkbox" id="st1" name="st1" value="Laptrinh">
+      <label for="st1">Lập trình</label>
+      <input type="checkbox" id="st2" name="st2" value="Docsach">
+      <label for="st2">Đọc sách</label>
+      <input type="checkbox" id="st3" name="st3" value="Dulich">
+      <label for="st3">Du lịch</label>
+    </form>
+    <br><br>
+    <label for="nganhhoc">Ngành học</label><br/>
+    <select name="nganhhoc" id="nganhhoc">
+      <option value="CNTT">Công nghệ thông tin</option>
+      <option value="KTMT">Kỹ thuật máy tính</option>
+      <option value="KTPM">Kỹ thuật phần mềm</option>
+    </select>
+    <br><br>
+    <label for="gioithieu">Giới thiệu</label><br>
+    <textarea name="gioitheu" id="gioithieu" rows="5" cols="30"></textarea><br>
+    <br>
+    <button type="button">Gửi</button>
+    <hr>
+    <h2>Liên hệ</h2>
+    <a href="https://www.facebook.com/hoang.nhu.at.2025">Facebook</a><br><br>
+    <a href="https://github.com/">Github</a><br><br>
+    <a href="https://mail.google.com/mail/u/0/#inbox">Gmail</a>
+    <hr>
+    <p>&copy; 2026 Hoàng Như Đạt.</p>
+  </body>
+</html>
